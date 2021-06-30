@@ -25,3 +25,6 @@ console.log('messaggio: ', message);
 
 var passwordPlaceholder = document.getElementById('password');
 console.log('elemento html: ', passwordPlaceholder);
+
+//Generare password in html
+passwordPlaceholder.innerHTML = message + firstName + lastName + favoriteColor + '21';
